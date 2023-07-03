@@ -49,5 +49,3 @@ jobs:
           repository: ${{ env.IMAGE_REPOSITORY }}
           tag_with_ref: true
           tag_with_sha: true # sha-${GITHUB_SHA::7}
-      	
-      
